@@ -1,0 +1,116 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}
+input{
+    border:1px solid #b0b0b0;
+    padding:3px 5px 4px;
+    color:#979797;
+    width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+/* Custom Styles */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+/* Header */
+.header {
+    font-size: 0;
+    background-color: gainsboro;
+    padding: 16px 0;
+}
+.brand img {
+    width: 180px;
+}
+.brand, .nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav {
+    width: calc(100% - 180px);
+    font-size: 16px;
+    text-align: right;
+}
+.nav a {
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 32px;
+    color: cadetblue;
+}
+/* Article */
+.article {
+    font-size: 0;
+    padding: 60px 0;
+}
+.article-img {
+    width: 100%;
+}
+.col {
+    width: 50%;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+}
+.article-heading {
+    font-size: 36px;
+    margin-bottom: 16px;
+}
+.article-text {
+    font-size: 20px;
+    line-height: 1.7;
+}
+.article-col {
+    padding: 32px;
+}
+/* footer */
+.footer {
+    text-align: center;
+    padding: 32px 0;
+    background-color: gray;
+}
+.footer a {
+    margin: 0 16px;
+    text-decoration: none;
+    font size: 24px;
+    color: aquamarine;
+}
