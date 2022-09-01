@@ -40,7 +40,8 @@ q:before,q:after {
 abbr,acronym { border:0;
 }
 /* Custom Styles */
-*, *::before, *::after {
+*, 
+*::before, *::after {
     box-sizing: border-box;
 }
 body {
