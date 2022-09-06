@@ -79,6 +79,9 @@ h1 {
 }
 
 /* Article */
+.image {
+    width: 500px;
+}
 .article img {
     width: 100%;
 }
